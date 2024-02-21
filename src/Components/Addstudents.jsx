@@ -1,13 +1,54 @@
 import React from 'react'
 
-const Addstudents = () => {
+
+const Addstudent = () => {
   return (
     <div>
-        <label htmlFor="" className="form-label">Name</label>
-        <input type="text" className="form-control" />
-        <button className="btn">Add</button>btn-success
+        
+        
+        <div className="container">
+            <div className="row">
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div className="row g-3">
+                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <label htmlFor="" className="form-label">Name</label>
+                            <input type="text" className="form-control" />
+                        </div>
+                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label htmlFor="" className="form-label">Register No</label>
+                        <input type="number" className="form-control" />
+                        
+
+                        </div>
+                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label htmlFor="" className="form-label">Brand</label>
+                        <input type="text" className="form-control" />
+                        
+
+                        </div>
+                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label htmlFor="" className="form-label">Owner</label>
+                        <input type="text" className="form-control" />
+
+                        </div>
+                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label htmlFor="" className="form-label">RC Book No</label>
+                        <input type="number" className="form-control" />
+
+                        </div>
+                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label htmlFor="" className="form-label">School</label>
+                        <input type="number" className="form-control" />
+                        </div>
+                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <button className="btn btn-success">REGISTER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
 
-export default Addstudents
+export default Addstudent

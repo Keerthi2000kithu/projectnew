@@ -4,7 +4,7 @@ import Addstudents from './Components/Addstudents';
 
 function App() {
   return (
-    <div className="App">
+    <div >
      <Addstudents/>
     </div>
   );
